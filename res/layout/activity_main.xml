@@ -31,14 +31,9 @@
             android:text="完成点餐" />
     </LinearLayout>
 
-    <GridView
-        android:id="@+id/photoGridview"
+    <ListView
+        android:id="@+id/photoListview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:horizontalSpacing="3dp"
-        android:numColumns="5"
-        android:verticalSpacing="3dp" >
-    </GridView>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -18,7 +18,7 @@ public class ImageAnalytics {
 		}
 	}
 
-	interface IOnResutlListener {
+	public interface IOnResutlListener {
 		void onResule(ImageEntity imageEntity);
 	}
 
